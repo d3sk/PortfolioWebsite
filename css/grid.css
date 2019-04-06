@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  font-family: sans-serif;
+  background: #fff4e6;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0 0 5px 0;
+}
+
+p {
+  margin: 0 0 20px 0;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 20% auto;
+}
+
+html, body {
+  margin:0;
+  padding:0;
+  }
+  
