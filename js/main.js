@@ -27,7 +27,7 @@ function shuffle(array) {
 function generateHTML([h, v]) {
 	return `
 		<div class="item h${h} v${v}" style="grid-row: span ${v};grid-column: span ${h}">
-			<img src="https://github.com/d3sk/PortfolioWebsite/blob/master/resized_photos/${randomImage()}.jpg?raw=true">
+			<img src="https://github.com/d3sk/PortfolioWebsite/blob/master/resized_photos/${randomImage()}.jpg?">
 			<div class="item__overlay">
 				<button>View</button>
 			</div>
